@@ -5,12 +5,17 @@ import numpy as np
 import pandas as pd
 import os
 
+donefiles = os.listdir('connect/')
+
 try:
 	benign = sys.argv[1]
 	malware = sys.argv[2]
 except Exception as e:
 	print(f'Missing arguments.{sys.argv} \n{e}')
 	exit(1)
+	if any([benign in f for f in donefiles]):
+    	print('This was already created.')
+    	exit(0)
 
 try:
 	p1 = angr.Project(f'../ml-sample-pack-small/benign/arm/{benign}', load_options={'auto_load_libs':False})
