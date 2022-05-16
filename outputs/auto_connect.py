@@ -6,7 +6,7 @@ import pandas as pd
 import os
 import subprocess
 
-files = os.listdir('/home/nimda/Documents/ml-sample-pack-small/benign/arm/')
+files = os.listdir('/home/kitty/onlab/ml-sample-pack-small/benign/arm/')
 malwy = '4eb6cb5191619d2d637beb4e6d4dde3aa58e7549b288f0d27916fe2ccd24be6a'
 donefiles = os.listdir('connect/')
 
