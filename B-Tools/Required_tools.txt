@@ -1,0 +1,8 @@
+Python3
+Pip3
+With pip installing:
+- pandas
+- numpy
+- angr
+- networkx
+- matplotlib for graph drawings

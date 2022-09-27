@@ -1,0 +1,2 @@
+2021-Dori-HevesiGergely-DeepLearningBasedMWdetUsingCFG project laboratory.
+https://stackabuse.com/random-forest-algorithm-with-python-and-scikit-learn/
